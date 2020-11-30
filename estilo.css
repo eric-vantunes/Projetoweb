@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200&display=swap');
+
+*{
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: white;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+.menu a{
+  float: center;
+  color: black;
+  padding: 400px;
+  font-weight:bold;
+  font-size:40px;
+  text-decoration: none;
+
+}
+
+.form {
+  margin: 90px;
+  color:black;
+  font-size: 100%;
+  font-weight: bold;
+
+}
+
+.form-group{
+  display: flex;
+  background-color:rgb(173, 228, 230);
+  flex-direction: row;
+}
+.form-group label {
+  width: 120px;
+  font-size: 20;
+  margin: 5px;
+}
+.form-group label.right-inline{
+  text-align: right;
+  padding: 4px;
+  padding: 4px;
+  width: auto;
+
+}
+.form-group .input-control{
+  flex: 1 1 auto;
+  display: block;
+  margin-bottom: 10px ;
+  margin-right: 10px;
+  margin: auto;
+} 
+
+button{
+  background-color: lightblue;
+  color: blue;
+  font-size: 15px;
+  padding: 1px;
+  margin: 15px;
+  min-width: 150px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+table.paleBlueRows {
+  margin-top: 15px;
+  border: 1px solid #FFFFFF;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.paleBlueRows td, table.paleBlueRows th {
+  border: 1px solid black;
+  padding: 0px 0px;
+}
+table.paleBlueRows tbody td {
+  font-size: 10px;
+}
+table.paleBlueRows tr:nth-child(even) {
+  background: #D0E4F5;
+}
+table.paleBlueRows thead {
+  background: lightblue
+  border-bottom 0px solid black;
+}
+table.paleBlueRows thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: ffffff;
+  text-align: center;
+  border-left: 1px solid black;
+}
+table.paleBlueRows thead th:first-child {
+  border-left: none;
+}
+
+table.paleBlueRows tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #333333;
+  background: #D0E4F5;
+  border-top: 3px solid #444444;
+}
+
+.listagem{
+  position: relative;
+  display: block;
+  margin:auto;
+  width: 100%;
+}
+
+table.paleBlueRows tfoot td {
+  font-size: 10px;
+}

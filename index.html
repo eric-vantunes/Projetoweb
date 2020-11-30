@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamento</title>
+    <link href="estilo.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="menu">
+        <a href="#Cadastro Veículos ">Estacionamento Antunes</a>
+    </div>
+       <div class="form">
+         <form name="formVeiculo">
+             <fieldset>
+                 <legend>Cadastro do Veículo</legend>
+                 <div class="form-group">
+                     <label>Modelo:</label>
+                     <input class="input-control" type="number" size="5" id="modelo"/>
+
+                     <label class="right-inline">Pessoa:</label>
+                     <input class="input-control" type="text" size="40" id="pessoa"/>
+
+                     <label class="right-inline">Placa:</label>
+                     <input class="input-control" type="number, text" size="40" id="placa"/>
+                </div>
+                <div class="form-group">
+                    <label>Telefone:</label>
+                    <input class="input-control" type="number" size="40" id="telefone"/>
+
+                    <label class="right-inline">Cor:</label>
+                    <input class="input-control" type="text" size="40" id="cor"/>
+
+                    <label class="right-inline">Box:</label>
+                    <input class="input-control" type="number" size="30" id="box"/>
+
+                    <label class="right-inline">Hr/Entrada:</label>
+                    <input class="input-control" type="hora" size="30" id="entrada"/>
+                </div>
+                <div class="form-group">
+                    <label>Observações:</label>
+                    <input id="observacoes" type="text">
+                </div>
+                <div class="form-group">
+                    <label></label>
+                    <button id="salvar">Salvar</button>
+                </div>
+             </fieldset>
+            </form>
+            </div>
+
+        <div id="listagem"></div>
+        <script src="veiculo.js"></script> 
+</body>
+</html>
